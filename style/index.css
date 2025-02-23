@@ -1,8 +1,58 @@
+:root{
+    --color-primary: #7F5AF0;
+    --color-secondary:  #52EF79;
+    --color-background:  #0F0E17;
+    --color-text: #f4f4f4;
+    --font-primary: "Merriweather Sans", serif;
+    --font-secondary:  "Merriweather", serif
+}
+
 /* CSS GENERAL*/
-body {
-    background-color: #0F0E17;
-    color: #f4f4f4;   
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);   
+    font-family: var(--font-primary);
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+h2,
+h3 {
+    font-size: 32px;
+    color: var(--color-primary);
+}
+
+
+.icon-color {
+    color: var(--color-secondary)
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--color-secondary);
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: var(--font-secondary);
+}
+
+.col {
+    display: flex;
 }
 
 /* ESTILO DEL ENCABEZADO Y NAV*/
@@ -30,7 +80,6 @@ header .menu ul{
 
 header .menu ul li a{
     text-decoration: none;
-    font-family: "Merriweather", serif;
     font-size: 16px;
     font-style: normal;
     color: #f4f4f4;
@@ -41,9 +90,29 @@ header .menu ul li img {
 }
 
 /* CONTENEDOR GENERAL*/
-.contain {
-    padding: 0 80px;
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /* SECCION DE PORTADA */
+.home{
+    margin: 120px 0;
+}
 
+/*SECCION ACERCA DE MI */
+.about-me,
+.projects, 
+.contact{
+    margin-bottom: 160px;
+}
+
+.soft-skills{
+    margin-top: 160px;
+}
+
+
+/* SECCION PROYECTO*/
+.card__title{
+    font-size: 24px;
+}
