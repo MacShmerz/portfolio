@@ -51,37 +51,40 @@
               </a>
             </div>      
           </div>
-          <div class="image-home">
-            <img src="#" alt="Foto de Perfil" />
+          <div class="img-home">
+            <img src="img/img-portada.jpg" alt="Foto de Perfil" />
           </div>     
         </div>
         <div class="btn-home">
-          <button class="slide-btn" aria-label="Deslizar hacia abajo">v</button>
+          <buttom><img class="btn-home-img" src="img/down.svg" alt=""></buttom>
         </div>
       </section>
 
       <!--Descripcion acecrca de mi-->
       <section id="about-me" class="about-me">
-        <h2>Acerca de mi</h2>
-        <div class="image-about-me">
-          <img src="#" alt="Figura anime de programacion" />
-        </div>
-        <div class="text-about-me">
-          <p>
-            Apasionada por el desarrollo web y las últimas tecnologías de
-            programación.
-          </p>
-          <p>
-            Actualmente, me encuentro en la búsqueda de proyectos que me
-            desafíen, me permitan crecer y me brinden la oportunidad de adquirir
-            nuevos conocimientos
-          </p>
-          <div class="contain-btn-about">
-            <a href="" class="button success-btn" download>Descargar CV</a>
+        <duv class="col">
+          <div class="image-about-me align-start">
+            <img src="img/aboutme.png" alt="">
           </div>
-        </div>
-        <aside id="soft-skills" class="soft-skills">
-          <h3>Soft Skills</h3>
+          <div class="text-about-me align-end">
+            <h2>Acerca de mi</h2>
+            <p>
+              Apasionada por el desarrollo web y las últimas tecnologías de
+              programación.
+            </p>
+            <p>
+              Actualmente, me encuentro en la búsqueda de proyectos que me
+              desafíen, me permitan crecer y me brinden la oportunidad de adquirir
+              nuevos conocimientos
+            </p>
+            <div class="contain-btn-about">
+              <a href="" class="button success-btn" download>Descargar CV</a>
+            </div>
+          </div>
+        </duv>
+        
+        <aside>
+          <h3 class="text-center">Soft Skills</h3>
           <p>
             Creo firmemente que el trabajo en equipo es fundamental para alcanzar
             metas compartidas y fortalecer habilidades clave como la comunicación
@@ -97,53 +100,58 @@
 
       <!--Seccion de lista de proyectos-->
       <section id="projects" class="projects">
-        <h2>Proyectos</h2>
+        <h2 class="text-center">Proyectos</h2>
         <div class="cards">
           <div class="card">
-            <div>
-              <img src="#" alt="Captura del proyecto" />
-              <div>
-                <a href="" target="_blank" class="button success-btn" aria-label="Ver Demo">Ver Demo</a>
+            <div class="col">
+              <div class="align-start">
+                <img src="img/project1.jpg" alt="Captura del proyecto" />
+                <div class="align-center">
+                  <a href="" target="_blank" class="button success-btn" aria-label="Ver Demo">Ver Demo</a>
+                </div>
               </div>
-            </div>
-            <div>
-              <h3 class="card__title">Titulo Card 1</h3>
-              <p>
-                Esta es una pequeña descripcion del proyecto realizado.
-                Comentando el concepto de las tecnologias usadas.
-              </p>
-              <div class="icons-card">
-                <i class="fa-tec" aria-label="icono de la tecnologia"></i>
-                <i class="fa-tec" aria-label="icono de la tecnologia"></i>
-                <i class="fa-tec" aria-label="icono de la tecnologia"></i>
-                <i class="fa-tec" aria-label="icono de la tecnologia"></i>
+              <div class="align-end card__content">
+                <h3 class="card__title">Titulo Card 1</h3>
+                <p>
+                  Esta es una pequeña descripcion del proyecto realizado.
+                  Comentando el concepto de las tecnologias usadas.
+                </p>
+                <div class="icons-card">
+                  <i class="fa-brands fa-html5 fa-height" style="color: #fc490b;"></i>                  <i class="fa-tec" aria-label="icono de la tecnologia"></i>
+                  <i class="fa-brands fa-css3-alt  fa-height" style="color: #25abdd;"></i>
+                  <i class="fa-brands fa-js  fa-height" style="color: #F7E018;"></i>
+                  <i class="fa-brands fa-bootstrap fa-height" style="color: #7A09F7;"></i>
+                </div>
+                <div class="align-center show-git">
+                  <a href="" target="_blank" class="button success-btn" >Ir a GitHub</a>
+                </div>
               </div>
-              <div>
-                <a href="" target="_blank" class="button success-btn" >Ir a GitHub</a>
-              </div>
-            </div>
+            </div>          
           </div>
+
           <div class="card">
-            <div>
-              <img src="#" alt="Captura del proyecto" />
-              <div>
-                <a href="" target="_blank" class="button success-btn" aria-label="Ver Demo">Ver Demo</a>
+            <div class="col">
+              <div class="align-start">
+                <img src="img/project2.jpg" alt="Captura del proyecto" />
+                <div class="align-center">
+                  <a href="" target="_blank" class="button success-btn" aria-label="Ver Demo">Ver Demo</a>
+                </div>
               </div>
-            </div>
-            <div>
-              <h3  class="card__title">Titulo Card 2</h3>
-              <p>
-                Esta es una pequeña descripcion del proyecto realizado.
-                Comentando el concepto de las tecnologias usadas.
-              </p>
-              <div class="icons-card">
-                <i class="fa-tec" aria-label="icono de la tecnologia"></i>
-                <i class="fa-tec" aria-label="icono de la tecnologia"></i>
-                <i class="fa-tec" aria-label="icono de la tecnologia"></i>
-                <i class="fa-tec" aria-label="icono de la tecnologia"></i>
-              </div>
-              <div>
-                <a href="" target="_blank" class="button success-btn" >Ir a GitHub</a>
+              <div class="align-end card__content">
+                <h3  class="card__title">Titulo Card 2</h3>
+                <p>
+                  Esta es una pequeña descripcion del proyecto realizado.
+                  Comentando el concepto de las tecnologias usadas.
+                </p>
+                <div class="icons-card">
+                  <i class="fa-brands fa-html5" style="color: #fc490b;"></i>                  <i class="fa-tec" aria-label="icono de la tecnologia"></i>
+                  <i class="fa-brands fa-css3-alt" style="color: #25abdd;"></i>
+                  <i class="fa-brands fa-js" style="color: #F7E018;"></i>
+                  <i class="fa-brands fa-bootstrap" style="color: #7A09F7;"></i>
+                 </div>
+                <div class="align-center">
+                  <a href="" target="_blank" class="button success-btn" >Ir a GitHub</a>
+                </div>
               </div>
             </div>
           </div>
@@ -153,61 +161,63 @@
       <!--Seccion de contacto y formulario-->
       <section id="contact" class="contact">
         <!--Contacto mediante redes sociales-->
-        <div class="contact__social-media">
-          <h2>CONTACTAME</h2>
-          <p>
-            Elige la manera que prefieras comunicarte conmigo haciendo click en
-            la red social de tu preferencia.
-          </p>
-          <div class="icons-contact-social">
-            <div class="contact-social">
-              <i class="fab fa-linkedin icon-color"></i>
-              <a href="https://www.linkedin.com/in/shirleymarcelo/" target="_blank" rel="noopener">/in/shirleymarcelo/</a>
-            </div>
-            <div class="contact-social">
-              <i class="fab fa-github icon-color"></i>
-              <a href="https://github.com/MacShmerz" target="_blank" rel="noopener">/MacShmerz</a>
-            </div>
-            <div class="contact-social">
-              <i class="fab fa-google icon-color"></i>
-              <a href="mailto:mackerline@gmail.com">mackerline@gmail.com</a>
+        <div class="col">
+          <div class="contact__social-media">
+            <h2>CONTACTAME</h2>
+            <p>
+              Elige la manera que prefieras comunicarte conmigo haciendo click en
+              la red social de tu preferencia.
+            </p>
+            <div class="icons-contact-social">
+              <div class="contact-social">
+                <i class="fab fa-linkedin icon-color"></i>
+                <a href="https://www.linkedin.com/in/shirleymarcelo/" target="_blank" rel="noopener">/in/shirleymarcelo/</a>
+              </div>
+              <div class="contact-social">
+                <i class="fab fa-github icon-color"></i>
+                <a href="https://github.com/MacShmerz" target="_blank" rel="noopener">/MacShmerz</a>
+              </div>
+              <div class="contact-social">
+                <i class="fab fa-google icon-color"></i>
+                <a href="mailto:mackerline@gmail.com">mackerline@gmail.com</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="contact__form">
-          <h2>ESCRIBEME</h2>
-          <form action="#" method="#">
-            <div class="row">
-              <label for="name" class="form-label">Nombre:*</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                class="form-col"
-                placeholder="Ingrese su nombre"
-                required
-              />
-            </div>
-            <div class="row">
-              <label for="email">Correo:*</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="form-wor"
-                placeholder="Ingrese su correo electrónico"
-                required
-              />
-            </div>
-            <div class="row">
-              <label for="message">Mensaje:*</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-            <div>
-              <button type="submit" class="button success-btn ">Enviar</button>
-            </div>
-            
-          </form>
+          <div class="contact__form">
+            <h2>ESCRIBEME</h2>
+            <form action="#" method="#">
+              <div class="row">
+                <label for="name" class="form-label">Nombre:*</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-col"
+                  placeholder="Ingrese su nombre"
+                  required
+                />
+              </div>
+              <div class="row">
+                <label for="email">Correo:*</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-wor"
+                  placeholder="Ingrese su correo electrónico"
+                  required
+                />
+              </div>
+              <div class="row">
+                <label for="message">Mensaje:*</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <div>
+                <button type="submit" class="button success-btn ">Enviar</button>
+              </div>
+              
+            </form>
+          </div>
         </div>
       </section>
     </main>
@@ -215,7 +225,7 @@
     <!--Pie de pagina-->
     <footer>
       <hr />
-      <p>
+      <p class="text-center">
         Construido y desarrollado con
         <span><i class="fa-solid fa-heart icon-color"></i></span> por Shirley
       </p>
